@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+}
+
+h1,
+p {
+    margin-bottom: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: yellow;
+    /*rgba(0, 0, 0, 0.8)*/
+    ;
+    z-index: 99;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    /*display: inline-block;*/
+    float: left;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav ul li ul li {
+    display: none;
+    opacity: .9;
+    ;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: yellow;
+}
+
+nav li:hover ul li {
+    display: block;
+}
+
+
+/*nav a {
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+}*/
+
+.secOne {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.secTwo {
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.secThree {
+    background-image: url('image3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sect {
+    /* background-image: url('image1.jpg');*/
+    height: 100%;
+}
+
+.subSect {
+    background-color: #282e34;
+    color: #ddd;
+    height: 50%;
+    /*text-align: center;
+    font-size: 100px;*/
+}
+
+
+/*Testing*/
+
+
+
+.border {
+    /* background-color: rgba(17, 17, 17, 0.00);*/
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    border: 10px solid yellow;
+}
+/*
+.ptext .border.trans {
+     background-color: transparent;
+}*/
+
+.ptext1 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.chang {
+    color: white;
+    padding: 4px;
+    border: .5px solid yellow;
+}
